@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6{
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: normal;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: #026fff;
+}
+
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero{
+   height: 400px; 
+   /*background-image: url('./Imagenes/IMG_3276.jpg');*/
+   background-color: #1b2127;
+   background-size: 500px 300px;
+   /*background-repeat: no-repeat;
+   background-position-x: right;*/
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero-image{
+    transform: rotate(270deg);
+}
+
+
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+}
+
+.Project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    /*margin: 10px;*/
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Project-Title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.Project-date{
+    margin: 10px 0;
+}
+
+.Project-url{
+    margin: 10px 0;
+}
+
+.Project-nutricion{
+    width: 500px;
+}
+
+.Project strong{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 80px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+ol,
+ul{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+ 
+.flexbox{
+    display: flex;
+}
+
+.Footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+}
+
+.portafolio-experiencio{
+    margin-left: 20px;
+}
+
+.Experience{
+    border: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto-experiencia{
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+.Contactame{
+background-color: #056fff;
+color: white;
+height: 150px;
+display: flex;
+align-items: center;
+}
+/*.social{
+    border: 1px solid red;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.social-link.twitter{
+background-image: url(C:\Users\Alberto\Desktop\Desarrollo_web\Imagenes\b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels);
+background-size: 50px 50px;
+}*/
+
+.form-email input{
+border-color: grey;
+border-style: solid;
+border-radius: 5px;
+padding: 10px 20px 10px 25px;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.container{
+   /* border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
